@@ -8,7 +8,7 @@
 #AutoIt3Wrapper_Outfile=ClipScrup.exe
 #AutoIt3Wrapper_Res_Description=Cleans extraneous formatting from text in the clipboard and more!
 #AutoIt3Wrapper_Res_Fileversion=4.1
-#AutoIt3Wrapper_Res_LegalCopyright=2015 EHR and Mike Kovacic
+#AutoIt3Wrapper_Res_LegalCopyright=2015 Mike Kovacic
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 Global $Version = 4.1
 #include <GUIConstantsEx.au3>
@@ -208,7 +208,6 @@ _GUICtrlRichEdit_WriteLine($idMyedit, "Make all text UPPERCASE - Makes all text 
 _GUICtrlRichEdit_WriteLine($idMyedit, "Make all text lowercase - Makes all text copied, paste as lowercase." & @CRLF, 0, "", 0x000000)
 _GUICtrlRichEdit_WriteLine($idMyedit, "Remove all Duplicate Spaces - Removes all duplicate space characters, while still leaving single spaces." & @CRLF, 0, "", 0x000000)
 _GUICtrlRichEdit_WriteLine($idMyedit, "Remove blank lines - Removes all extraneous empty line breaks and leaving only one in its place." & @CRLF, 0, "", 0x000000)
-_GUICtrlRichEdit_WriteLine($idMyedit, "Should you have any problems, email MikeKovacic@gmail.com" & @CRLF, 0, "", 0x000000)
 
 _GUICtrlEdit_Scroll($idMyedit, $SB_PAGEUP)
     While 1
